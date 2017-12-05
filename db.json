@@ -1,0 +1,18 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"title": "The Mist",
+			"author": "Stephan King",
+			"decription": "A spooky adventure story",
+			"imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51BD-%2BdGpgL.jpg"
+		},
+		{
+			"id": 2,
+			"title": "War and Peace",
+			"author": "Leo Tolstoy",
+			"decription": "This edition includes an introduction, note on the translation, cast of characters, maps, notes on the major battles depicted, and chapter summaries.",
+			"imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41%2BKgTfA2ML._SX320_BO1,204,203,200_.jpg"
+		}
+	]
+}
