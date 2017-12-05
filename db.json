@@ -1,18 +1,28 @@
 {
-	"books": [
-		{
-			"id": 1,
-			"title": "The Mist",
-			"author": "Stephan King",
-			"description": "A spooky adventure story",
-			"imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51BD-%2BdGpgL.jpg"
-		},
-		{
-			"id": 2,
-			"title": "War and Peace",
-			"author": "Leo Tolstoy",
-			"description": "This edition includes an introduction, note on the translation, cast of characters, maps, notes on the major battles depicted, and chapter summaries.",
-			"imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41%2BKgTfA2ML._SX320_BO1,204,203,200_.jpg"
-		}
-	]
+  "books": [
+    {
+      "id": 1,
+      "title": "The Mist",
+      "author": "Stephan King",
+      "description": "A spooky adventure story",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51BD-%2BdGpgL.jpg",
+      "buyLink": "https://www.amazon.com/Mist-Stephen-King-ebook/dp/B071S65BYM"
+    },
+    {
+      "id": 2,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "This edition includes an introduction, note on the translation, cast of characters, maps, notes on the major battles depicted, and chapter summaries.",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41%2BKgTfA2ML._SX320_BO1,204,203,200_.jpg",
+      "buyLink": "https://www.amazon.com/War-Peace-Penguin-Classics-Tolstoy/dp/0140447938"
+    },
+    {
+      "title": "It",
+      "author": "Stephen King",
+      "description": "They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness. But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city’s children. Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry’s sewers.",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/41aCsKYeDwL.jpg",
+      "buyUrl": "https://www.amazon.com/gp/product/B018ER7K5I/ref=s9u_simh_gw_i2?ie=UTF8&fpl=fresh&pd_rd_i=B018ER7K5I&pd_rd_r=651dda67-d96c-11e7-a0c9-4ff59c1d47b8&pd_rd_w=f8kuA&pd_rd_wg=EQ8ds&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=NTQTEC25V04C19G9CAA8&pf_rd_t=36701&pf_rd_p=1dd2ffc3-992f-4bde-81b0-de270e0ead5a&pf_rd_i=desktop",
+      "id": 3
+    }
+  ]
 }

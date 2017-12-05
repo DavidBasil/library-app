@@ -16,7 +16,7 @@ myApp.config(function($routeProvider){
 		})
 		.when('/books/add', {
 			controller: 'BooksController',
-			templateUrl: 'view/add-book.html'
+			templateUrl: 'views/add-book.html'
 		})
 		.when('/books/edit/:id', {
 			controller: 'BooksController',

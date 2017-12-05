@@ -1,11 +1,12 @@
 <a href="#!/books" class="uk-button uk-button-primary uk-margin-small-top">Go back to the library</a>
 <div class="uk-card uk-card-default uk-margin-small-top" ng-init="getBook()">
 	<div class="uk-card-header">
-		<h3 class="uk-card-title">Latest Books</h3>
+		<h3 class="uk-card-title">{{ book.title }}</h3>
 	</div><!-- /uk-card-header -->
 	<div class="uk-card-body">
-		<h4>{{ book.title }}</h4>
 		<p>{{ book.description }}</p>
 		<img ng-src="{{ book.imgUrl }}" class="uk-height-medium" alt="">
+		<br>
+		<a href="{{ book.buyLink }}" target="_blank" class="uk-button uk-button-default uk-margin-small-top">Buy on Amazon</a>
 	</div><!-- /uk-card-body -->
 </div><!-- /uk-card -->
