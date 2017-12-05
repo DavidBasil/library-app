@@ -1,0 +1,14 @@
+<div class="uk-card uk-card-default uk-margin-small-top" ng-init="getBooks()">
+	<div class="uk-card-header">
+		<h3 class="uk-card-title">Latest Books</h3>
+	</div><!-- /uk-card-header -->
+	<div class="uk-card-body" uk-grid>
+		<ul class="uk-list uk-list-divider">
+			<li ng-repeat="book in books" class="uk-box-shadow-hover-large uk-padding">
+				<h4 class="uk-margin-small-top uk-light"><a href="#!/books/details/{{book.id}}" class="uk-label-success uk-padding-small uk-link-reset">{{ book.title }}</a></h4>
+				<p>{{ book.description }}</p>
+				<img ng-src="{{book.imgUrl}}" class="uk-height-medium uk-box-shadow-large uk-border-rounded" alt="">
+			</li>
+		</ul>
+	</div><!-- /uk-card-body -->
+</div><!-- /uk-card -->
