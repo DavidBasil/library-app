@@ -21,4 +21,17 @@ myApp.controller('BooksController', ['$scope', '$http', '$location', '$routePara
 		})
 	}
 
+	$scope.editBook = function(){
+		var id = $routeParams.id
+		$http.put('http://localhost:3000/books/' + id, $scope.book).then(function(response){
+			window.location.href = "#!/books"	
+		})
+	}
+
+	$scope.removeBook = function(id){
+		$http.delete('http://localhost:3000/books/' + id).then(function(response){
+			window.location.href = '#!/books'
+		})
+	}
+
 }])
