@@ -7,7 +7,7 @@
 		<p>{{ book.description }}</p>
 		<img ng-src="{{ book.imgUrl }}" class="uk-height-medium" alt="">
 		<br>
-		<a href="{{ book.buyLink }}" target="_blank" class="uk-button uk-button-primary uk-margin-small-top">Buy on Amazon</a>
+		<a href="{{ book.buyUrl }}" target="_blank" class="uk-button uk-button-primary uk-margin-small-top">Buy on Amazon</a>
 
 		<div class="uk-button-group uk-margin-small-top">
 			<button class="uk-button uk-button-secondary">Options</button>
@@ -15,8 +15,8 @@
 				<button class="uk-button uk-button-default" type="button"><span uk-icon="icon: more"></span></button>
 				<div uk-dropdown="mode: click; pos: right-center; boundary: ! .uk-button-group; boundary-align: true;">
 					<ul class="uk-nav uk-dropdown-nav">
-						<li><a href="#!/books/edit/{{book.id}}" class="uk-button uk-button-primary uk-text-success uk-text-bold">Edit</a></li>
-						<li><a href="#" class="uk-button uk-button-danger uk-text-warning uk-text-bold" ng-click="removeBook(book.id)">Delete</a></li>
+						<li><a href="#!/books/edit/{{book._id}}" class="uk-button uk-button-primary uk-text-success uk-text-bold">Edit</a></li>
+						<li><a href="#" class="uk-button uk-button-danger uk-text-warning uk-text-bold" ng-click="removeBook(book._id)">Delete</a></li>
 					</ul>
 				</div><!-- /uk-dropdown -->
 			</div><!-- /uk-inline -->

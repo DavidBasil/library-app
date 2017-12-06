@@ -5,7 +5,7 @@
 	<div class="uk-card-body" uk-grid>
 		<ul class="uk-list uk-list-divider">
 			<li ng-repeat="book in books" class="uk-box-shadow-hover-large uk-padding">
-				<h4 class="uk-margin-small-top uk-light"><a href="#!/books/details/{{book.id}}" class="uk-label-success uk-padding-small uk-link-reset">{{ book.title }}</a></h4>
+				<h4 class="uk-margin-small-top uk-light"><a href="#!/books/details/{{book._id}}" class="uk-label-success uk-padding-small uk-link-reset">{{ book.title }}</a></h4>
 				<p>{{ book.description }}</p>
 				<img ng-src="{{book.imgUrl}}" class="uk-height-medium uk-box-shadow-large uk-border-rounded" alt="">
 			</li>
